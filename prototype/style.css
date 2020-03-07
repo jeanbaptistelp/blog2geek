@@ -1,0 +1,89 @@
+body {
+
+    margin : 0 ;
+    padding : 0;
+    
+}
+
+header {
+    
+    margin : 0 auto;
+    width : 800px;
+    height: 130px;
+    background-color: rgb(22, 24, 44);
+    color : white;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+header p {
+
+    margin : 0 auto;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 96px;
+    
+}
+
+.container {
+
+    margin : 0 auto;
+    width: 800px;
+    background-color: rgb(22, 24, 44);
+    color : white;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.container-menu {
+
+    margin : 0 auto;
+    width: 800px;
+    height: 60px;
+    background-color: rgb(22, 24, 44);
+    color : white;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+
+
+ul {
+
+    width : 800px;
+    background-color: rgb(22, 24, 44);
+    color : white;
+    display: flex;
+    align-items: stretch;
+    align-content: stretch;
+    justify-content: space-around;
+    padding : 0;
+}
+
+ul li {
+
+    font-family: 'Muli', sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    background-color: rgb(22, 24, 44);
+    color : white;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    padding : 15px;
+    transition : 500ms;
+    width : 100px;
+}
+
+ul li:hover {
+
+    color : rgb(22, 24, 44);
+    background-color: white;
+}
